@@ -38,7 +38,9 @@ class MyAppbar extends StatelessWidget implements PreferredSizeWidget {
               width: 50,
               height: 50,
               child: IconButton(
-                onPressed: () {},
+                onPressed: () {
+                  Scaffold.of(context).openDrawer();
+                },
                 icon: Icon(
                   Icons.grid_view_rounded,
                   color: Color(0xff4a4e52),

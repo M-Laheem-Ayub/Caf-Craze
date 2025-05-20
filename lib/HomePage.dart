@@ -1,6 +1,7 @@
 // ignore_for_file: file_names, prefer_const_constructors_in_immutables
 
 import 'package:cafe_craze/MyBottomNavbar.dart';
+import 'package:cafe_craze/MyDrawer.dart';
 import 'package:cafe_craze/data/coffee_data.dart';
 import 'package:cafe_craze/data/beans_data.dart';
 import 'package:cafe_craze/BeansList.dart';
@@ -104,7 +105,7 @@ class _HomePageState extends State<HomePage> {
       child: Scaffold(
         backgroundColor: Color(0xff0c0f14),
         appBar: MyAppbar(),
-        drawer: Drawer(),
+        drawer: MyDrawer(),
         body: SingleChildScrollView(
           child: Padding(
             padding: const EdgeInsets.symmetric(horizontal: 20),

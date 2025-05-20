@@ -17,6 +17,9 @@ class MyAppbar extends StatelessWidget implements PreferredSizeWidget {
         child: AppBar(
           backgroundColor: Color(0xff0c0f14),
           elevation: 0,
+          surfaceTintColor: Colors.transparent,
+          shadowColor: Colors.transparent,
+          automaticallyImplyLeading: false,
           leading: Padding(
             padding: const EdgeInsets.all(8),
             child: Container(
